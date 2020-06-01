@@ -5855,3 +5855,9 @@ django_todo/__pycache__/__init__.cpython-38.pyc
 django_todo/__pycache__/settings.cpython-38.pyc
 django_todo/__pycache__/urls.cpython-38.pyc
 django_todo/__pycache__/wsgi.cpython-38.pyc
+todo/__pycache__/__init__.cpython-38.pyc
+todo/__pycache__/views.cpython-38.pyc
+todo/templates/todo/todo_list.html
+todo/__pycache__/admin.cpython-38.pyc
+todo/__pycache__/models.cpython-38.pyc
+todo/migrations/__pycache__/__init__.cpython-38.pyc
