@@ -5851,3 +5851,7 @@ env/Scripts/python.exe
 env/Scripts/pythonw.exe
 env/Scripts/sqlformat.exe
 env/Scripts/__pycache__/django-admin.cpython-38.pyc
+django_todo/__pycache__/__init__.cpython-38.pyc
+django_todo/__pycache__/settings.cpython-38.pyc
+django_todo/__pycache__/urls.cpython-38.pyc
+django_todo/__pycache__/wsgi.cpython-38.pyc
