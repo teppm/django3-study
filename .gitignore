@@ -5863,3 +5863,4 @@ todo/__pycache__/models.cpython-38.pyc
 todo/migrations/__pycache__/__init__.cpython-38.pyc
 todo/migrations/__pycache__/0001_initial.cpython-38.pyc
 todo/migrations/0001_initial.py
+todo/__pycache__/forms.cpython-38.pyc

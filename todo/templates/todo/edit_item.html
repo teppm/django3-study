@@ -8,12 +8,12 @@
 </head>
 
 <body>
-    <h1>Add a todo task:</h1>
-    <form method='POST' action="add">
-        {% csrf_token %} {{ form }}
+    <h1>Edit a todo task:</h1>
+    <form method='POST'>
+        {% csrf_token %} {{ form.as_p }}
         <div>
             <p>
-                <button type="submit">Add Task</button>
+                <button type="submit">Edit Task</button>
             </p>
         </div>
     </form>
