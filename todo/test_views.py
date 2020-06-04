@@ -43,3 +43,11 @@ class TestViews(TestCase):
         self.assertRedirects(response, '/') #ensure correct redirect matches views.py redirect
         updated_item = Item.objects.get(id=item.id) #get the updated item that is now done=False
         self.assertFalse(updated_item.done) #ensure that false that item is done , check previous
+
+
+    def test_can_edit_item(self):
+        item = Item.objects.create(name='create to do item') #create new item to work with in this test
+        response = self.client.post(f'/edit/{item.id}', {'name': 'new update todo item'}) #get the above created item and post a changed name 
+        updated_item = Item.objects.get(id=item.id) #get updated item
+        self.assertEqual(updated_item.name, 'new update todo item') #check that update item name equals string
+        
